@@ -1,17 +1,17 @@
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
        local Window = MakeWindow({
          Hub = {
          Title = "Huyyhere Hub",
-         Animation = "VERSION 2025"
+         Animation = "-----------VERSION 2025-----------"
          },
         Key = {
         KeySystem = false,
         Title = "Key System",
-        Description = "",
-        KeyLink = "",
-        Keys = {"1234"},
+        Description = "Vào server vô mục key lấy nha",
+        KeyLink = "https://discord.gg/gP6W6Eex",
+        Keys = {"2025"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -22,8 +22,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "rbxassetid://<"126784282366252">",
-       Size = {100, 100},
+       Image = rbxassetid://<"126784282366252">,
+       Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
@@ -61,7 +61,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   Translator = true; -- true/false
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
   })   AddButton(Tab1o, {
      Name = "Blacktrap Hub",
@@ -69,9 +69,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
 	  loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))()
   end
   })   AddButton(Tab1o, {
-     Name = "3",
+     Name = "W-Azure Hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+	getgenv().Team = "Pirates"
+	getgenv().AutoLoad = false --Will Load Script On Server Hop
+	getgenv().SlowLoadUi  = false
+	getgenv().ForceUseSilentAimDashModifier = false --Force turn on silent aim , if error then executor problem
+	getgenv().ForceUseWalkSpeedModifier = false --Force turn on Walk Speed Modifier , if error then executor problem
+	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
   end
   })   AddButton(Tab1o, {
      Name = "Cuttay Hub",
@@ -90,7 +95,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
 ----- Dropdown 
 
   Dropdown = AddDropdown(Tab1o, {
-     Name = "a",
+     Name = "Comming Soon",
      Options = {"Test 1", "Test 2", "Test 3", "Test 4"},
      Default = "Melee",
      Callback = function()
